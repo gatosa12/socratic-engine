@@ -11,6 +11,7 @@ declare global {
   }
 }
 declare var SpeechRecognition: any;
+type SpeechRecognition = any;
 
 interface UseVoiceOptions {
   mode: VoiceMode;
