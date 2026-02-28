@@ -10,6 +10,7 @@ declare global {
     webkitSpeechRecognition: typeof SpeechRecognition;
   }
 }
+declare var SpeechRecognition: any;
 
 interface UseVoiceOptions {
   mode: VoiceMode;
